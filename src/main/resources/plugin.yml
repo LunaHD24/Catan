@@ -1,0 +1,33 @@
+name: Catan
+version: '${project.version}'
+main: de.lunaa.catan.Catan
+api-version: '1.20'
+softdepend:
+  - we-forks
+
+
+commands:
+  newboard:
+    description: "Create a new Catan board"
+  deleteboard:
+    description: "Delete the Catan board"
+    aliases:
+      - delboard
+  invitegame:
+    description: "Invite players to your Catan game"
+    aliases:
+      - invgame
+  joingame:
+    description: "Join a Catan game of another player"
+  startgame:
+    description: "Instantly starts the game"
+  setresources:
+    description: "Sets resources of given player"
+  addresources:
+    description: "Adds resources to given player"
+  removeresources:
+    description: "Removes resources of given player"
+    aliases:
+      - remresources
+  turn:
+    description: "Manage turns inside a game of Catan"

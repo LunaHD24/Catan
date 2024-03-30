@@ -1,0 +1,4 @@
+buildings:
+  maxSettlements: 4
+general:
+  victoryPointsToWin: 10
